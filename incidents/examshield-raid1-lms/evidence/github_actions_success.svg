@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" role="img" aria-label="Verified GitHub Actions job for ExamShield">
+<rect width="1100" height="520" rx="18" fill="#0d1117"/><text x="45" y="58" font-family="Arial" font-size="31" font-weight="700" fill="#f0f6fc">ExamShield CI: failure identified and fixed</text>
+<text x="45" y="87" font-family="Arial" font-size="16" fill="#8b949e">Evidence summary derived from GitHub Actions run #44111758810 — not a browser screenshot</text>
+<rect x="45" y="112" width="1010" height="74" rx="11" fill="#162a20" stroke="#238636"/>
+<circle cx="83" cy="149" r="17" fill="#238636"/><path d="M73 149l7 7 15-16" fill="none" stroke="white" stroke-width="4"/>
+<text x="115" y="143" font-family="Arial" font-size="22" fill="#f0f6fc" font-weight="700">API tests — success</text>
+<text x="115" y="169" font-family="Arial" font-size="16" fill="#a7b9b0">Commit 62cfee488648366cd9182b5ef08e510b88bf6e55 · main</text>
+<text x="53" y="230" font-family="Arial" font-size="17" fill="#8b949e">Step</text><text x="930" y="230" font-family="Arial" font-size="17" fill="#8b949e">Result</text>
+<g font-family="Arial" font-size="20" fill="#f0f6fc"><text x="75" y="279">Checkout repository</text><text x="75" y="334">Set up Python 3.12</text><text x="75" y="389">Install fleet and incident lab dependencies</text><text x="75" y="444">Run fleet and ExamShield tests</text></g>
+<g font-family="Arial" font-size="18" font-weight="700" fill="#3fb950"><text x="932" y="279">PASS</text><text x="932" y="334">PASS</text><text x="932" y="389">PASS</text><text x="932" y="444">PASS</text></g>
+<g stroke="#30363d"><line x1="45" y1="294" x2="1055" y2="294"/><line x1="45" y1="349" x2="1055" y2="349"/><line x1="45" y1="404" x2="1055" y2="404"/></g>
+<text x="45" y="499" font-family="Arial" font-size="14" fill="#8b949e">Source: https://github.com/chirayukapoor5/linux-fleet-operations-fault-injection-lab/actions/runs/44111758810</text></svg>
