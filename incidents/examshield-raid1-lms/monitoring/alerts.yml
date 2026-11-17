@@ -1,0 +1,10 @@
+groups:
+  - name: examshield
+    rules:
+      - alert: ExamShieldMirrorDegraded
+        expr: examshield_raid_degraded == 1
+        for: 0s
+        labels:
+          severity: critical
+        annotations:
+          summary: ExamShield storage replica failure detected
