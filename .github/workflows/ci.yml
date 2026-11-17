@@ -8,5 +8,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -r requirements-dev.txt
-      - run: python -m pytest -q
+      - name: Install fleet and incident lab dependencies
+        run: |
+          python -m pip install -r requirements-dev.txt
+          python -m pip install -r incidents/examshield-raid1-lms/requirements.txt
+      - name: Run fleet and ExamShield tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}/incidents/examshield-raid1-lms
+        run: python -m pytest -q
