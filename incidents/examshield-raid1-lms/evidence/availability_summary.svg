@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500" role="img" aria-label="Measured ExamShield incident: 105 of 105 health probes succeeded while a replica failed and rebuilt">
+<rect width="1100" height="500" rx="18" fill="#0d1728"/><text x="45" y="58" fill="#f4f7ff" font-family="Arial" font-size="28" font-weight="700">University LMS | Availability during injected storage fault</text>
+<text x="45" y="89" fill="#a0b6ce" font-family="Arial" font-size="17">Recorded filesystem-mirror simulation, 17 November 2026 (not real mdadm RAID1)</text>
+<rect x="45" y="118" width="320" height="81" rx="10" fill="#18283e"/><text x="65" y="148" fill="#a0b6ce" font-family="Arial" font-size="16">Successful HTTP requests</text><text x="65" y="182" fill="#7ee6b4" font-family="Arial" font-size="31" font-weight="700">1,715 / 1,715</text>
+<rect x="389" y="118" width="320" height="81" rx="10" fill="#18283e"/><text x="410" y="148" fill="#a0b6ce" font-family="Arial" font-size="16">Sampled health checks</text><text x="410" y="182" fill="#7ee6b4" font-family="Arial" font-size="31" font-weight="700">105 / 105</text>
+<rect x="733" y="118" width="321" height="81" rx="10" fill="#18283e"/><text x="753" y="148" fill="#a0b6ce" font-family="Arial" font-size="16">Rebuild duration</text><text x="753" y="182" fill="#f4f7ff" font-family="Arial" font-size="31" font-weight="700">3.069 s</text>
+<text x="45" y="254" fill="#a0b6ce" font-family="Arial" font-size="15">Availability by sampled health probe (all successful)</text>
+<line x1="95" y1="394" x2="1030" y2="394" stroke="#60748d" stroke-width="2"/><line x1="95" y1="294" x2="95" y2="394" stroke="#60748d" stroke-width="2"/>
+<text x="52" y="305" fill="#a0b6ce" font-size="15" font-family="Arial">UP</text><text x="42" y="400" fill="#a0b6ce" font-size="15" font-family="Arial">DOWN</text>
+<line x1="95" y1="304" x2="1030" y2="304" stroke="#65ddac" stroke-width="4"/>
+<line x1="342" y1="278" x2="342" y2="407" stroke="#f87171" stroke-dasharray="7 7" stroke-width="2"/>
+<line x1="654" y1="278" x2="654" y2="407" stroke="#fbbf24" stroke-dasharray="7 7" stroke-width="2"/>
+<line x1="997" y1="278" x2="997" y2="407" stroke="#65ddac" stroke-dasharray="7 7" stroke-width="2"/>
+<text x="281" y="427" fill="#fca5a5" font-size="15" font-family="Arial">Fault injection</text><text x="606" y="447" fill="#fde68a" font-size="15" font-family="Arial">Rebuild started</text><text x="900" y="427" fill="#a7f3d0" font-size="15" font-family="Arial">Rebuild complete</text>
+<text x="45" y="479" fill="#a0b6ce" font-family="Arial" font-size="14">Illustrative timeline layout using recorded outcome counts. Marker positions are schematic, not exact probe timestamps.</text></svg>
